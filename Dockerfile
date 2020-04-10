@@ -1,6 +1,6 @@
 FROM golang AS build
 COPY . /src/
-RUN cd /src && go mod init && GO111MODULE=on go build -o gotek .
+RUN cd /src && go mod init jmllabsuse.com/gotek&& GO111MODULE=on go build -o gotek .
 
 FROM debian
 WORKDIR /app
