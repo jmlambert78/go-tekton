@@ -1,0 +1,9 @@
+apiVersion: tekton.dev/v1alpha1
+kind: PipelineResource
+metadata:
+  name: gotek-image
+spec:
+  type: image
+  params:
+    - name: url
+      value: jmlambert78/gotek:latest
