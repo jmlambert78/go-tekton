@@ -15,8 +15,8 @@ Build a go project with tekton
 * Trigger the task execution with this file : kubectl apply 
   * taskrun.yaml  
   
-  # check the behavior with the tkn tool or the tekton gui web interface
+# check the behavior with the tkn tool or the tekton gui web interface
   * tkn tr list
   * tkn tr logs 
   
-  # check that the newly created image is on the docker hub at the place you specified.
+# check that the newly created image is on the docker hub at the place you specified.
