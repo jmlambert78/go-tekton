@@ -7,5 +7,5 @@ FROM registry.suse.com/suse/sle15:latest
 WORKDIR /app
 EXPOSE 8080
 COPY --from=build /src/gotek /app/
-COPY --from=build /src/gojq /app
+COPY --from=build2 /src/gojq /app
 ENTRYPOINT ./gotek
